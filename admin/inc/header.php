@@ -18,10 +18,10 @@
                     <a class="nav-link text-white" href="dashboard.php">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Rooms</a>
+                    <a class="nav-link text-white" href="user_queries">User Queries</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-white" href="#">Users</a>
+                    <a class="nav-link text-white" href="carousel.php">Users</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="settings.php">Settings</a>

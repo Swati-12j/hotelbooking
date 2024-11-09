@@ -1,3 +1,4 @@
+
 :root{
     --teal: #2ec1ac;
     --teal_hover: #279e8c;
@@ -29,13 +30,14 @@ border-color: var(--teal_hover);
 }
 .custom-alert{
     position: fixed;
-    top: 25px;
+    top: 80px;
     right: 25px;
 }
 
 #dashboard-menu{
     position: fixed;
     height: 100%;
+    z-index: 11;
 }
 
 @media screen and (max-width:991px){

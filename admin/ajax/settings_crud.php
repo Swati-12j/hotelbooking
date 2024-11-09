@@ -69,7 +69,7 @@ if(isset($_POST['get_members'])){
                             <div class="card text-bg-dark">
                        <img src="$path$row[picture]" class="card-img">
                         <div class="card-img-overlay text-end">
-                   <button  type="button" onclick="rem_member($row[sr_no])"class="btn btn-danger btn-sm shadow-none">
+                   <button  type="button" onclick="rem_member($row[sr_no])" class="btn btn-danger btn-sm shadow-none">
                    <i class="bi bi-trash3"></i> Delete
                    </button>
                
@@ -86,7 +86,7 @@ if(isset($_POST['get_members'])){
 
 if(isset($_POST['rem_member'])){
  $frm_data =filteration(($_POST));
- $values=[$frm_data['rem_member']];
+ $values = [$frm_data['rem_member']];
  $pre_q="SELECT * FROM `team_details` WHERE `sr_no`=?";
  $res= select($pre_q,$values,'i');
  $img= mysqli_fetch_assoc($res);

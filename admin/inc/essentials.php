@@ -65,7 +65,7 @@ function uploadImage($image, $folder)
 }
 
 function deleteImage($image,$folder){
-    if(unlink(URLOAD_IMAGE_PATH/$folder.$image)){
+    if(unlink(UPLOAD_IMAGE_PATH.$folder.$image)){
         return true;
     }
     else{

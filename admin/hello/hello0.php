@@ -1,1 +1,0 @@
-this is php_check_syntax
